@@ -1,4 +1,5 @@
 
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,7 +12,7 @@ body {
 }
 
 
-.qr {
+section {
     width: 300px;
     height: 450px;
     background-color:  hsl(0, 0%, 100%);
@@ -25,18 +26,18 @@ body {
     text-align: center;
 }
 
-.qr img {
+section img {
     width: 90%;
     border: inherit;
 }
 
-.qr p:first-of-type {
+section p:first-of-type {
     font-weight: 700;
     font-size: 22px;
     margin: 10px;
     color: hsl(218, 44%, 22%);
 }
 
-.qr p:last-of-type {
+section p:last-of-type {
     color: hsl(220, 15%, 55%);
 }
